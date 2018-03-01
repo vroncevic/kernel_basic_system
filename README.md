@@ -1,12 +1,11 @@
-Kernel Basic System (C codes).
-================================================================================
+# Kernel Basic System (C codes).
 
 The README is used to introduce the tool and provide instructions on
 how to install the tool, any machine dependencies it may have (for
 example C compilers and installed libraries) and any other information
 that should be provided before the tool is installed.
 
-INSTALLATION
+### INSTALLATION
 
 To install this tool type the following:
 
@@ -16,18 +15,17 @@ To install this tool type the following:
 
 and follow instructions.
 
-DEPENDENCIES
+### DEPENDENCIES
 
 This tool requires these other modules and libraries:
 
-	None
+	* None
 
-COPYRIGHT AND LICENCE
+### COPYRIGHT AND LICENCE
 
-Copyright (C) 2017 by https://github.com/vroncevic/kernel_basic_system
+Copyright (C) 2018 by https://vroncevic.github.io/kernel_basic_system
 
 This tool is free software; you can redistribute it and/or modify it.
 
-![alt tag](https://raw.githubusercontent.com/vroncevic/kernel_basic_system/master/cc++_logo.jpg)
-![alt tag](https://raw.githubusercontent.com/vroncevic/kernel_basic_system/master/linux_logo.jpg)
+:sparkles:
 

@@ -38,9 +38,11 @@ struct gdt_ptr {
 extern struct gdt_entry gdt[3];
 extern struct gdt_ptr gp;
 
-extern void gdt_set_gate(int32_t num, uint64_t base, uint64_t limit, uint8_t access, uint8_t gran);
+extern void gdt_set_gate(
+	int32_t num, uint64_t base, uint64_t limit, uint8_t access, uint8_t gran
+);
 extern void gdt_install(void);
-extern void gdt_flush();
+extern void gdt_flush(void);
 
 #endif
 

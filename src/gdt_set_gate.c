@@ -21,7 +21,9 @@
 struct gdt_entry gdt[3];
 struct gdt_ptr gp;
 
-void gdt_set_gate(int32_t num, uint64_t base, uint64_t limit, uint8_t access, uint8_t gran) {
+void gdt_set_gate(
+	int32_t num, uint64_t base, uint64_t limit, uint8_t access, uint8_t gran
+) {
     gdt[num].base_low = (base & 0xFFFF);
     gdt[num].base_middle = (base >> 16) & 0xFF;
     gdt[num].base_high = (base >> 24) & 0xFF;
